@@ -1,0 +1,18 @@
+{
+  "name": "proyecto3-rtc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "masonry-layout": "^4.2.2",
+    "unsplash-js": "^7.0.19"
+  }
+}
