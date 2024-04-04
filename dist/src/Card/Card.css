@@ -1,21 +1,21 @@
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 30px 20px;
-    width: 100%;
-    gap: 10px;
-}
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px auto;
+        width: 100%;
+    }
 
 .imgContainer {
     align-items: center;
-    border-radius: 16px;
+    border-radius: 10px;
     display: flex;
     height: auto;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     overflow: hidden;
     width: 300px;
+    margin: 5px;
 }
 
 .photo {
@@ -24,7 +24,6 @@
     object-fit: cover;
     transition: all ease-in-out 0.2s;
     width: 100%;
-    padding: 5px;
 }
 
 .photo:hover {

@@ -3,7 +3,6 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    gap: 5px;
 }
 
 .header-links {
@@ -11,8 +10,6 @@ header {
     display: flex;
     flex-grow: 0.1;
     justify-content: space-around;
-    margin-left: 5px;
-    gap: 5px;
 }
 
 .header-links > p:first-of-type {
@@ -34,8 +31,6 @@ header {
     display: flex;
     flex-grow: 0.1;
     justify-content: space-around;
-    gap: 3px;
-    margin-right: 5px;
 }
 
 .header-icons img, .header-links img, p {

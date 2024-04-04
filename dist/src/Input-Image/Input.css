@@ -6,7 +6,21 @@ input {
     padding: 15px 20px;
 }
 
+.gallery {
+    margin-left: 50px;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+}
 
+.imgCon {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    gap: 15px;
+    margin: 5px;
+    width: 300px;
+}
 
 @media screen and (max-width: 500px) {
     input {
