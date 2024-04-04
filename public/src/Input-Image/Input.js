@@ -29,7 +29,7 @@ export const inputWord = async (section) => {
               // Peticion a la API para resultados en varias páginas
               for (let page = 1; page <= 3; page++) {
                   const newImages = await fetch(
-                      `https://api.unsplash.com/search/photos?query=${word}&client_id=Apv4rswnoZ0Lp7xGFFJbnS520XpHA1J1dCSILs53y64&per_page=10&page=${page}`
+                    `https://api.unsplash.com/search/photos?query=${word}&client_id=Apv4rswnoZ0Lp7xGFFJbnS520XpHA1J1dCSILs53y64&per_page=10&page=${page}`
                   );
                   const element = await newImages.json();
                   allResults = allResults.concat(element.results);

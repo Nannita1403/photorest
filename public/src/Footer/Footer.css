@@ -1,3 +1,7 @@
+footer{
+    position: relative;
+    bottom: 0;
+}
 footer > ul {
     align-items: center;
     border-top: 2px solid black;
@@ -10,5 +14,6 @@ footer > ul {
 
 footer > ul li a {
     color: black;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }

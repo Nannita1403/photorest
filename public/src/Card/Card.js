@@ -8,7 +8,7 @@ export const showGallery = async () => {
     return new Promise(async (resolve) => {
         try {
             // Obtener imágenes desde API de Unsplash
-            const response = await fetch("https://api.unsplash.com/photos/random?client_id=Apv4rswnoZ0Lp7xGFFJbnS520XpHA1J1dCSILs53y64&count=30");
+            const response = await fetch("https://api.unsplash.com/photos/random?client_id=Apv4rswnoZ0Lp7xGFFJbnS520XpHA1J1dCSILs53y64&count=15");
             const res = await response.json();
 
             // Creación de img y contenedor
@@ -35,7 +35,9 @@ export const showGallery = async () => {
                 const masonry = new Masonry('.gallery', {
                     itemSelector: '.imgContainer',
                     isFitWidth: true,
-                    gutter: 0
+                    gutter: 15,
+                    //resize: false,
+                    
                 });
             }
 
